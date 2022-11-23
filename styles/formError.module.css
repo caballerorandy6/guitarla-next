@@ -1,0 +1,9 @@
+.formError {
+  background-color: #fd0e35;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1.2rem;
+  font-weight: 600;
+  font-size: 2rem;
+  color: var(--white);
+}

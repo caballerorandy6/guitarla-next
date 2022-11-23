@@ -2,7 +2,7 @@ import Image from "next/image";
 import Layout from "../components/layout";
 import styles from "../styles/nosotros.module.css";
 
-function nosotros() {
+function Nosotros() {
   return (
     <>
       <Layout
@@ -44,4 +44,4 @@ function nosotros() {
   );
 }
 
-export default nosotros;
+export default Nosotros;
