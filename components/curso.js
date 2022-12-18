@@ -2,7 +2,7 @@ import Image from "next/image";
 import styles from "../styles/curso.module.css";
 
 function Curso({ curso }) {
-  const { description, image, title } = curso;
+  const { content, image, title } = curso;
   return (
     <section className={`${styles.curso} curso`}>
       <style jsx>{`
@@ -18,7 +18,7 @@ function Curso({ curso }) {
       <div className={`contenedor ${styles.grid}`}>
         <div className={styles.contenido}>
           <h1 className="heading">{title}</h1>
-          <p>{description}</p>
+          <p>{content}</p>
         </div>
       </div>
     </section>
