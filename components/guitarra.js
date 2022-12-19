@@ -3,18 +3,18 @@ import Link from "next/link";
 import styles from "../styles/guitarras.module.css";
 
 function Guitarra({ guitarra }) {
-  //console.log(guitarra);
+  console.log(guitarra);
 
   const { description, image, name, price, url } = guitarra;
 
   return (
     <div className={styles.guitarra}>
       <Image
-        priority
-        src={image.data.attributes.formats.medium.url}
+        src={image?.data?.attributes?.formats?.small?.url}
         width={600}
         height={400}
         alt={`Imagen guitarra ${name}`}
+        priority
       />
 
       <div className={styles.contenido}>

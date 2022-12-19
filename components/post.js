@@ -11,7 +11,7 @@ function Post({ post }) {
     <div>
       <article>
         <Image
-          src={image.data.attributes.formats.medium.url}
+          src={image?.data?.attributes?.formats?.small?.url}
           width={600}
           height={400}
           alt={`Imagen Blog ${title}`}
